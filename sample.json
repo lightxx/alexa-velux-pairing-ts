@@ -1,0 +1,250 @@
+{
+    "body": {
+      "homes": [
+        {
+          "id": "5ca1b850ce366be95d8b8ea7",
+          "name": "Tomhome",
+          "altitude": 262,
+          "coordinates": [
+            16.22486,
+            47.81685
+          ],
+          "country": "AT",
+          "timezone": "Europe/Vienna",
+          "city": "Gemeinde Wiener Neustadt",
+          "currency_code": "EUR",
+          "nb_users": 1,
+          "data_versions": {
+            "users": 0
+          },
+          "place_improved": false,
+          "trust_location": false,
+          "therm_absence_notification": true,
+          "therm_absence_autoaway": false,
+          "rooms": [
+            {
+              "id": "3672793349",
+              "name": "Loft",
+              "type": "livingroom",
+              "module_ids": [
+                "0a:00:00:00:4f:54",
+                "532a5d5a120e0cc0",
+                "5309405a0c2d0ad3",
+                "5309405a0c2d0ad9",
+                "5309405a0c2a02e0",
+                "5309405a0c2d0ad4",
+                "5309405a0c2d07aa",
+                "5309405a0c2d0887",
+                "5309405a0c2d0aac",
+                "5309405a0c29078b",
+                "5309405a110402ea",
+                "5309405a0c2d0ad7"
+              ],
+              "modules": [
+                "0a:00:00:00:4f:54",
+                "532a5d5a120e0cc0",
+                "5309405a0c2d0ad3",
+                "5309405a0c2d0ad9",
+                "5309405a0c2a02e0",
+                "5309405a0c2d0ad4",
+                "5309405a0c2d07aa",
+                "5309405a0c2d0887",
+                "5309405a0c2d0aac",
+                "5309405a0c29078b",
+                "5309405a110402ea",
+                "5309405a0c2d0ad7"
+              ]
+            }
+          ],
+          "modules": [
+            {
+              "id": "70:ee:50:37:50:bb",
+              "type": "NXG",
+              "name": "Gateway 1",
+              "subtype": "EU",
+              "setup_date": 1554102352,
+              "reachable": true,
+              "modules_bridged": [
+                "0a:00:00:00:4f:54",
+                "0b:00:00:00:47:b1",
+                "532a5d5a120e0cc0",
+                "5309405a0c2d0ad3",
+                "5309405a0c2d0ad9",
+                "5309405a0c2a02e0",
+                "5309405a0c2d0ad4",
+                "5309405a0c2d07aa",
+                "5309405a0c2d0887",
+                "5309405a0c2d0aac",
+                "5309405a0c29078b",
+                "5309405a110402ea",
+                "5309405a0c2d0ad7"
+              ],
+              "schedule_limits": [
+                {
+                  "nb_zones": 100,
+                  "nb_timeslots": 300,
+                  "nb_items": 500,
+                  "type": "algo"
+                },
+                {
+                  "nb_zones": 100,
+                  "nb_timeslots": 300,
+                  "nb_items": 500,
+                  "type": "event"
+                }
+              ],
+              "capabilities": [
+                {
+                  "name": "automatism",
+                  "available": true
+                }
+              ],
+              "pincode_enabled": false
+            },
+            {
+              "id": "0a:00:00:00:4f:54",
+              "type": "NXS",
+              "name": "Sensor switch 1",
+              "setup_date": 1554102525,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb"
+            },
+            {
+              "id": "0b:00:00:00:47:b1",
+              "type": "NXD",
+              "name": "Departure switch 1",
+              "setup_date": 1554102529,
+              "bridge": "70:ee:50:37:50:bb"
+            },
+            {
+              "id": "532a5d5a120e0cc0",
+              "type": "NXO",
+              "name": "SU2",
+              "setup_date": 1699020619,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "1"
+            },
+            {
+              "id": "5309405a0c2d0ad3",
+              "type": "NXO",
+              "name": "SU4",
+              "setup_date": 1699020620,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "2"
+            },
+            {
+              "id": "5309405a0c2d0ad9",
+              "type": "NXO",
+              "name": "SU3",
+              "setup_date": 1699020622,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "3"
+            },
+            {
+              "id": "5309405a0c2a02e0",
+              "type": "NXO",
+              "name": "Baby Nord",
+              "setup_date": 1699020624,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "4"
+            },
+            {
+              "id": "5309405a0c2d0ad4",
+              "type": "NXO",
+              "name": "SO1",
+              "setup_date": 1699020625,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "5"
+            },
+            {
+              "id": "5309405a0c2d07aa",
+              "type": "NXO",
+              "name": "SO2",
+              "setup_date": 1699020626,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "6"
+            },
+            {
+              "id": "5309405a0c2d0887",
+              "type": "NXO",
+              "name": "SO3",
+              "setup_date": 1699020628,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "7"
+            },
+            {
+              "id": "5309405a0c2d0aac",
+              "type": "NXO",
+              "name": "NU1",
+              "setup_date": 1699020629,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "8"
+            },
+            {
+              "id": "5309405a0c29078b",
+              "type": "NXO",
+              "name": "Baby Sued",
+              "setup_date": 1699020632,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "10"
+            },
+            {
+              "id": "5309405a110402ea",
+              "type": "NXO",
+              "name": "SU1",
+              "setup_date": 1699020633,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "11"
+            },
+            {
+              "id": "5309405a0c2d0ad7",
+              "type": "NXO",
+              "name": "NO2",
+              "setup_date": 1699178663,
+              "room_id": "3672793349",
+              "bridge": "70:ee:50:37:50:bb",
+              "velux_type": "shutter",
+              "group_id": "9"
+            }
+          ]
+        }
+      ],
+      "user": {
+        "email": "t-h@t-h.cc",
+        "language": "en-US",
+        "locale": "en-US",
+        "country": "AT",
+        "feel_like_algorithm": 0,
+        "unit_pressure": 0,
+        "unit_system": 0,
+        "unit_wind": 0,
+        "all_linked": false,
+        "type": "velux",
+        "id": "5ca1b6d62e8f510d008b5684",
+        "app_telemetry": true
+      }
+    },
+    "status": "ok",
+    "time_exec": 0.06504201889038086,
+    "time_server": 1730099327
+  }
